@@ -1,0 +1,187 @@
+* {
+  color: white;
+}
+body {
+  background-color: black;
+}
+
+#box-superior {
+  position: relative;
+  border: 15px;
+  margin-top: 15px;
+  padding-bottom: 100px;
+  border: solid;
+  border-color: white;
+}
+
+#box-lateral {
+  border: 15px;
+  margin-top: -103px;
+  padding-left: 100px;
+  padding-bottom: 540px;
+  border: solid;
+  position: absolute;
+  border-color: white;
+}
+
+#logo-engnet {
+  height: 80px;
+  margin-top: -95px;
+  margin-left: 10px;
+  position: absolute;
+}
+
+#email-image {
+  height: 40px;
+  margin-top: -64px;
+  margin-left: 92.3%;
+  position: absolute;
+}
+
+#servicos-num {
+  margin-top: -60px;
+  margin-left: 130px;
+  position: absolute;
+}
+
+#servicos {
+  margin-top: -50px;
+  margin-left: 110px;
+  position: absolute;
+}
+
+#sobre-nos-num {
+  margin-top: -60px;
+  margin-left: 27%;
+  position: absolute;
+}
+
+#sobre-nos {
+  margin-top: -50px;
+  margin-left: 25%;
+  position: absolute;
+}
+
+#processo-seletivo-num {
+  margin-top: -60px;
+  margin-left: 47%;
+  position: absolute;
+}
+
+#processo-seletivo {
+  margin-top: -50px;
+  margin-left: 43%;
+  position: absolute;
+}
+
+a {
+  margin-top: -50px;
+  margin-left: 85%;
+  position: absolute;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 45px;
+  width: 500px;
+  margin-left: 10%;
+}
+p {
+  font-size: 20px;
+  width: 500px;
+  margin-left: 10%;
+}
+#imagem-central1 {
+  width: 35%;
+  height: 50%;
+  margin-left: 55%;
+  margin-top: -300px;
+  position: absolute;
+}
+
+#logo-instagram {
+  width: 50px;
+  height: 50px;
+  margin-left: -2100%;
+  margin-top: 280px;
+  position: relative;
+}
+#logo-linkedin {
+  width: 50px;
+  height: 50px;
+  margin-left: -2100%;
+  margin-top: 350px;
+  position: relative;
+}
+
+#logo-whats {
+  width: 50px;
+  height: 50px;
+  margin-left: -2100%;
+  margin-top: 430px;
+  position: relative;
+}
+
+#aplicativo {
+  color: black;
+  text-align: center;
+
+  width: 23%;
+  height: 35%;
+  border-radius: 5%;
+  background-color: white;
+  margin-left: 10%;
+  margin-top: 2%;
+}
+
+#sistema-web {
+  color: black;
+  text-align: center;
+
+  width: 23%;
+  height: 35%;
+  border-radius: 5%;
+  background-color: white;
+  margin-left: 40%;
+  margin-top: -15.5%;
+}
+
+#site {
+  color: black;
+  text-align: center;
+
+  width: 23%;
+  height: 35%;
+  border-radius: 5%;
+  background-color: white;
+  margin-left: 70%;
+  margin-top: -15.5%;
+}
+
+#consultoria {
+  color: black;
+  text-align: center;
+
+  width: 23%;
+  height: 35%;
+  border-radius: 5%;
+  background-color: white;
+  margin-left: 10%;
+  margin-top: 2%;
+}
+
+#solucoes-personalisadas {
+  color: black;
+  text-align: center;
+  width: 53.5%;
+  height: 35%;
+  border-radius: 5%;
+  background-color: white;
+  margin-left: 40%;
+  margin-top: -15.5%;
+}
+.text {
+  color: black;
+  text-align: center;
+  width: 90%;
+}
