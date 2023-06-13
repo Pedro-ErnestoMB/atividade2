@@ -1,79 +1,91 @@
-<link rel="stylesheet" href="./style.css" />
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css" />
+  <title>Document</title>
+</head>
 <body>
-  <div id="box-superior"></div>
-  <div id="box-lateral"></div>
-  <img src="logo.png" alt="logo da engnet" id="logo-engnet" />
-
-  <div id="servicos" draggable="true">serviços</div>
-  <h6 id="servicos-num">01</h6>
-
-  <div id="sobre-nos">sobre nós</div>
-  <h6 id="sobre-nos-num">02</h6>
-
-  <div id="processo-seletivo">processo seletivo</div>
-  <h6 id="processo-seletivo-num">03</h6>
-
-  <a
-    href="https://api.whatsapp.com/send/?phone=5561996658577&text&type=phone_number&app_absent=0"
-  >
-    fale conosco
-  </a>
-
-  <img src="correio.png" alt="email" id="email-image" />
-
-  <a href="https://www.instagram.com/engnetconsultoria/"
-    ><img src="insta.jpeg" alt="logo instagram" id="logo-instagram"
-  /></a>
-
-  <a
-    href="https://www.linkedin.com/company/engnet-consultoria-s-c/?originalSubdomain=br"
-    ><img src="linkedin.jpeg" alt="logo linkedin" id="logo-linkedin"
-  /></a>
-
-  <a
-    href="https://api.whatsapp.com/send/?phone=5561996658577&text&type=phone_number&app_absent=0"
-    ><img src="whats.jpeg" alt="logo-whats" id="logo-whats"
-  /></a>
-
-  <div id="centro-superior">
-    <div id="aplicativo">
-      <h4 class="text">Aplicativo</h4>
-      <p class="text">
-        O desenvolvimento de aplicativos é destinado a novos empreendedores ou
-        empresas que buscam oferecer experiências personalizadas para seus
-        usuários, facilitando e automatizando processos para o uso intuitivo do
-        cliente.
-      </p>
+  <div id="box-superior">
+    <div class="logo">
+      <img src="logo.png" alt="logo da engnet" id="logo-engnet" />
     </div>
-    <div id="sistema-web">
-      <h4 class="text">sistema-web</h4>
-      <p class="text">
-        Se adeque à todos os tipos de dispositivos por um sistema web que
-        automatiza e organiza processos conforme sua personalização
-      </p>
+    <div class="cabecalho">
+      <div id="servicos">
+        <p class="number">01</p>
+        <p class="item">serviços</p>
+      </div>
+      <div id="sobre-nos">
+        <p class="number">02</p>
+        <p class="item">sobre nós</p>
+      </div>
+      <div id="processo-seletivo">
+        <p class="number">03</p>
+        <p class="item">processo seletivo</p>
+      </div>
+      <div id="fale-conosco">      
+        <div id="fale-conosco-text">fale com a gente</div>
+        <div id="fale-conosco-image">
+          <a href="https://api.whatsapp.com/send/?phone=5561996658577&text&type=phone_number&app_absent=0">
+            <img src="correio.png" alt="email" id="email"></a></div>
+        
+      </div>
     </div>
-    <div id="site">
-      <h4 class="text">SITE</h4>
-      <p class="text">
-        Se torne visível na internet, divulgue a imagem da sua instituição para
-        o público e potencialize sua prospecção passiva e conversões online
-      </p>
+
+  </div>
+  <div class="central">
+    <div id="box-lateral">
+      <ul class="box-lateral-icons">
+        <li class="icons">
+          <a href="https://www.instagram.com/engnetconsultoria/"><div class="inner-image" id="icon-ig"></div></a>
+        </li>
+        <li class="icons">
+            <a href="https://www.linkedin.com/company/engnet-consultoria-s-c/?originalSubdomain=br"><div class="inner-image" id="icon-link"></div></a>
+        </li>
+        <li class="icons">
+            <a href="https://api.whatsapp.com/send/?phone=5561996658577&text&type=phone_number&app_absent=0"><div class="inner-image" id="icon-wpp"></div></a>
+        </li>
+      </ul>
+
+    </div>
+
+
+    <div class="pagina-central">
+      <div class="retangulos-superiores">
+        <div class="retangulos">
+          <img class="adicionar-imagem"></img>
+          <h2>APLICATIVO</h2>
+          <p>O desenvolvimento de aplicativos é destinado a novos empreendedores ou empresas que buscam oferecer experiências personalizadas para seus usuários, facilitando e automatizando processos para o uso intuitivo do cliente.</p>
+        </div>
+        <div class="retangulos">
+          <div class="adicionar-imagem"></div>
+          <h2>Sistema Web</h2>
+          <p>Se adeque à todos os tipos de dispositivos por um sistema web que automatiza e organiza processos conforme sua personalização.</p>
+        </div>
+        <div class="retangulos">
+          <div class="adicionar-imagem"></div>
+          <h2 class="site-titulo">Site</h2>
+          <p>Se torne visível na internet, divulgue a imagem da sua instituição para o público e potencialize sua prospecção passiva e conversões online.</p>
+        </div>
+      </div>
+      <div class="retangulos-inferiores">
+        <div class="retangulos">
+          <div class="adicionar-imagem"></div>
+          <h2>Consultoria</h2>
+          <p>Verifique a viabilidade tecnológica do seu projeto e amadureça a sua ideia por meio da coleta de requisitos e prototipação.</p>
+        </div>
+        <div id="retangulo-grande">
+          <div class="adicionar-imagem"></div>
+          <h2 class="solucoes-personalisadas">Soluções personalizadas</h2>
+          <p class="solucoes-personalisadas">Soluções que se adequam a sua necessidade, abrangemos a integração do hardware ao software para a implementação do projeto.</p>
+        </div>
+
+      </div>
     </div>
   </div>
 
-  <div id="consultoria">
-    <h4 class="text">consultoria</h4>
-    <p class="text">
-      Verifique a viabilidade tecnológica do seu projeto e amadureça a sua ideia
-      por meio da coleta de requisitos e prototipação
-    </p>
-  </div>
-  <div id="solucoes-personalisadas">
-    <h4 class="text">Soluções personalisadas</h4>
-    <p class="text">
-      Soluções que se adequam a sua necessidade, abrangemos a integração do
-      hardware ao software para a implementação do projeto
-    </p>
-  </div>
 </body>
+</body>
+</html>

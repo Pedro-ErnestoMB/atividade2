@@ -1,187 +1,216 @@
+html,
+body,
+ul,
+li,
+div {
+  box-sizing: border-box;
+}
+
 * {
   color: white;
 }
+
+ul {
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
 body {
-  background-color: black;
+  background-color: #1e1e1e;
+  height: 90vh;
+  overflow: hidden;
 }
 
 #box-superior {
-  position: relative;
-  border: 15px;
+  border: 2px solid white;
   margin-top: 15px;
-  padding-bottom: 100px;
-  border: solid;
-  border-color: white;
+  display: flex;
 }
 
 #box-lateral {
-  border: 15px;
-  margin-top: -103px;
-  padding-left: 100px;
-  padding-bottom: 540px;
-  border: solid;
-  position: absolute;
-  border-color: white;
+  max-width: 75px;
+  border-bottom: 2px solid white;
+  border-right: 2px solid white;
+  border-left: 2px solid white;
+  padding: 40px;
+  max-height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box-lateral-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: auto;
+}
+.box-lateral-icons .icons {
+  max-height: 5rem;
+  max-width: 5rem;
+}
+.logo {
+  border-right: 2px solid white;
 }
 
 #logo-engnet {
-  height: 80px;
-  margin-top: -95px;
-  margin-left: 10px;
-  position: absolute;
+  max-height: 60px;
+  margin: 10px;
 }
 
-#email-image {
+.cabecalho {
+  display: flex;
+
+  width: 80%;
+  /* margin-top: 25px; */
+  padding-left: 5rem;
+
+  /*================= mudanças ============ */
+  align-items: center;
+  justify-content: space-between;
+}
+.cabecalho div:last-child {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  flex-direction: row;
+}
+.cabecalho div:last-child a {
+  display: flex;
+  margin: 0% !important;
+  padding: 10px;
+  align-items: center;
+  flex-direction: row;
+}
+.central {
+  height: 100% !important;
+}
+.inner-image {
+  object-fit: cover;
   height: 40px;
-  margin-top: -64px;
-  margin-left: 92.3%;
-  position: absolute;
+  width: 40px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+#icon-ig {
+  background-image: url("./insta.jpeg");
 }
 
-#servicos-num {
-  margin-top: -60px;
-  margin-left: 130px;
-  position: absolute;
+#icon-link {
+  background-image: url("./linkedin.jpeg");
+}
+
+#icon-wpp {
+  background-image: url("./whats.jpeg");
+}
+/*================= fim das mudanças ============ */
+
+.cabecalho p {
+  margin: 0;
+}
+
+#email {
+  width: 40px;
+  height: 40px;
+}
+
+#fale-conosco-text {
+  margin-left: 300px;
+}
+#fale-conosco-image #fale-conosco {
+  display: flex;
+  justify-content: end;
 }
 
 #servicos {
-  margin-top: -50px;
-  margin-left: 110px;
-  position: absolute;
+  width: 100px;
 }
-
-#sobre-nos-num {
-  margin-top: -60px;
-  margin-left: 27%;
-  position: absolute;
+#servicos p {
+  color: orange;
 }
 
 #sobre-nos {
-  margin-top: -50px;
-  margin-left: 25%;
-  position: absolute;
-}
-
-#processo-seletivo-num {
-  margin-top: -60px;
-  margin-left: 47%;
-  position: absolute;
+  width: 100px;
 }
 
 #processo-seletivo {
-  margin-top: -50px;
-  margin-left: 43%;
-  position: absolute;
+  width: 100px;
 }
 
 a {
-  margin-top: -50px;
-  margin-left: 85%;
-  position: absolute;
   text-decoration: none;
 }
 
 h1 {
-  font-size: 45px;
+  font-size: 30px;
   width: 500px;
   margin-left: 10%;
 }
-p {
-  font-size: 20px;
-  width: 500px;
-  margin-left: 10%;
-}
-#imagem-central1 {
-  width: 35%;
-  height: 50%;
-  margin-left: 55%;
-  margin-top: -300px;
-  position: absolute;
+
+.central {
+  display: flex;
+  height: 350px;
 }
 
-#logo-instagram {
-  width: 50px;
-  height: 50px;
-  margin-left: -2100%;
-  margin-top: 280px;
-  position: relative;
+.retangulos-superiores {
+  margin-top: 1rem;
+  width: 900px;
+  padding-left: 2rem;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
 }
-#logo-linkedin {
-  width: 50px;
-  height: 50px;
-  margin-left: -2100%;
-  margin-top: 350px;
-  position: relative;
-}
-
-#logo-whats {
-  width: 50px;
-  height: 50px;
-  margin-left: -2100%;
-  margin-top: 430px;
-  position: relative;
-}
-
-#aplicativo {
-  color: black;
-  text-align: center;
-
-  width: 23%;
-  height: 35%;
-  border-radius: 5%;
+.retangulos {
+  width: 15rem;
+  height: 13rem;
   background-color: white;
-  margin-left: 10%;
-  margin-top: 2%;
+  border-radius: 7%;
 }
-
-#sistema-web {
-  color: black;
-  text-align: center;
-
-  width: 23%;
-  height: 35%;
-  border-radius: 5%;
+.retangulos-inferiores {
+  margin-top: 1rem;
+  width: 900px;
+  padding-left: 2rem;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+}
+#retangulo-grande {
+  width: 34.8rem;
+  height: 13rem;
   background-color: white;
+  border-radius: 7%;
+  align-items: center;
+  display: inline-block;
+}
+.adicionar-imagem {
   margin-left: 40%;
-  margin-top: -15.5%;
+  margin-top: 2rem;
+  object-fit: cover;
+  height: 40px;
+  width: 40px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  background-image: url("./WhatsApp\ Image\ 2023-06-09\ at\ 23.00.55.jpeg");
+}
+h2 {
+  color: black;
+  padding-left: 2rem;
 }
 
-#site {
-  color: black;
-  text-align: center;
-
-  width: 23%;
-  height: 35%;
-  border-radius: 5%;
-  background-color: white;
-  margin-left: 70%;
-  margin-top: -15.5%;
+.solucoes-personalisadas {
+  padding-left: 7rem;
 }
 
-#consultoria {
+.pagina-central p {
+  margin-left: 7px;
+  font-size: 10px;
   color: black;
-  text-align: center;
-
-  width: 23%;
-  height: 35%;
-  border-radius: 5%;
-  background-color: white;
-  margin-left: 10%;
-  margin-top: 2%;
+  width: 15rem;
+  height: 2rem;
 }
-
-#solucoes-personalisadas {
-  color: black;
-  text-align: center;
-  width: 53.5%;
-  height: 35%;
-  border-radius: 5%;
-  background-color: white;
-  margin-left: 40%;
-  margin-top: -15.5%;
-}
-.text {
-  color: black;
-  text-align: center;
-  width: 90%;
+.site-titulo {
+  margin-left: 4rem;
 }
